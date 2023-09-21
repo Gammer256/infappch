@@ -1,0 +1,5 @@
+lst = list(map(int, input().split()))
+a = 0.5*lst[0]*(lst[0]+1)
+lst.pop(0)
+b = sum(lst)
+print(a-b)
